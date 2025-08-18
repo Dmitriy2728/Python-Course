@@ -56,7 +56,7 @@ def test_contains2(Input_string, Symbol):
     [
         ("Hello!", "H", "ello!"),
         ("1234_56", "_", "123456"),
-        ("Hello!", None, "Hello!"),
+        ("Hello!", "  ", "Hello!"),
         ("Hello", "R", "Hello")
     ],
 )
